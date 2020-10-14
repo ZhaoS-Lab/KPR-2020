@@ -28,7 +28,7 @@ ref=''        # path to the KPR reference
 fastq1=''     # RNA-seq fastq file 1 (forward)  
 fastq2=''     # RNA-seq fastq file 2 (reverse)  
 
-3.  Adjust two running paramenters: 1) the K-mer length, K; and 2) the number of assembly runs, N, based on the input RNA-seq data. Normally, we will suggest K=half of the RNA-seq read length and N>=30,000. Larger N will take more time, but will yield more comprehensive genotyping.  
+3.  Adjust two running paramenters: 1) the K-mer length, K; and 2) the number of assembly runs, N, based on the input RNA-seq data. Normally, we will suggest K=half of the RNA-seq read length and N>=100. Larger N will take more time, but will yield more comprehensive genotyping.  
   
 K=50          # K-mer length  . 
 N=30000       # The number of assembly runs  
